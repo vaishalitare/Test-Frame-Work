@@ -5,7 +5,8 @@
 <h4>Test Framework automates following testcases:</h4>
 <ol>
 	<li>Create account test using data provider .</li>
-	<li>Sign in test  successful and unsuccessful login flow</li>
+	<li>Sign in test .
+	<li>Successful and unsuccessful login flow</li>
 	<li>Home page navigation verification .</li>
 	<li>Product selection using different page filters .</li>
 	</ol>
