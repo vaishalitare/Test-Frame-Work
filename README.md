@@ -6,7 +6,7 @@
 <ol>
 	<li>Create account test using data provider .</li>
 	<li>Sign in test .
-	<li>Successful and unsuccessful login flow</li>
+	<li>Successful and unsuccessful login flow.</li>
 	<li>Home page navigation verification .</li>
 	<li>Product selection using different page filters .</li>
 	</ol>
