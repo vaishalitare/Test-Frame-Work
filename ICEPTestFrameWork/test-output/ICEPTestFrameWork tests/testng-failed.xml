@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ICEPTestFrameWork tests]">
+  <parameter name="password" value="testcase"/>
+  <parameter name="confirmPassword" value="testcase"/>
+  <parameter name="username" value="test@mobovida.com"/>
+  <test name="Create Account Test(failed)">
+    <classes>
+      <class name="testCases.CreateAccPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test_verifyPasswordLength" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.CreateAccPageTest -->
+    </classes>
+  </test> <!-- Create Account Test(failed) -->
+</suite> <!-- Failed suite [ICEPTestFrameWork tests] -->

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35340" started-at="2018-01-08T04:26:04Z" finished-at="2018-01-08T04:26:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35340" started-at="2018-01-08T04:26:04Z" finished-at="2018-01-08T04:26:39Z">
+      <class name="testCases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.LoginPageTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="12788" started-at="2018-01-07T20:26:04Z" finished-at="2018-01-07T20:26:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_Successful_login(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginPageTest@6a41eaa2]" name="test_Successful_login" duration-ms="4335" started-at="2018-01-07T20:26:18Z" data-provider="getData" finished-at="2018-01-07T20:26:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vaishalitest@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testcase]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Successful_login -->
+        <test-method status="PASS" signature="test_Login_withOut_password()[pri:1, instance:testCases.LoginPageTest@6a41eaa2]" name="test_Login_withOut_password" duration-ms="8874" started-at="2018-01-07T20:26:22Z" finished-at="2018-01-07T20:26:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login_withOut_password -->
+        <test-method status="PASS" signature="test_Login_withOut_username()[pri:2, instance:testCases.LoginPageTest@6a41eaa2]" name="test_Login_withOut_username" duration-ms="2705" started-at="2018-01-07T20:26:31Z" finished-at="2018-01-07T20:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login_withOut_username -->
+        <test-method status="PASS" signature="test_Login_withOut_PasswrdAndUsername()[pri:3, instance:testCases.LoginPageTest@6a41eaa2]" name="test_Login_withOut_PasswrdAndUsername" duration-ms="2456" started-at="2018-01-07T20:26:34Z" finished-at="2018-01-07T20:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login_withOut_PasswrdAndUsername -->
+        <test-method status="PASS" signature="test_Login_invalid_password()[pri:4, instance:testCases.LoginPageTest@6a41eaa2]" name="test_Login_invalid_password" duration-ms="2821" started-at="2018-01-07T20:26:36Z" finished-at="2018-01-07T20:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login_invalid_password -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@6a41eaa2]" name="tearDown" is-config="true" duration-ms="835" started-at="2018-01-07T20:26:39Z" finished-at="2018-01-07T20:26:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
