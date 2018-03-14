@@ -4,7 +4,6 @@ import org.testng.annotations.DataProvider;
 
 public class TestUtil {
 
-	public static String screenshotName;
 	public static ExcelReader excel = new ExcelReader(
 			System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\data.xlsx");
 
